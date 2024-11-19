@@ -1,0 +1,127 @@
+.unifrakturcook-bold {
+    font-family: "UnifrakturCook", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'unifrakturcook', serif;
+    background-color: #1d1d1f; 
+ }
+
+ h1, h2, h3 {
+    font-family: 'unifrakturcook', serif;
+    color: #f5f5f5; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin-left: center;
+ }
+
+ a {
+    color: #9398a1; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+ }
+ a:hover {
+    color: #e0e5e8; 
+ }
+
+ button {
+    background-color: #28292d; 
+    color: #f5f5f5; 
+    font-family: 'unifrakturcook', serif;
+    border: 1px solid #444; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+    border-radius: 12px;
+
+    
+ }
+ button:hover {
+    background-color: #505358; 
+    transform: translateY(-2px); 
+ }
+
+ input, textarea {
+    background-color: #202124; 
+    color: #e0e0e0; 
+    border: 1px solid #444;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif; 
+ }
+
+ .container {
+    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2a2c31; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    margin-left: center;
+ }
+
+ nav {
+    background-color: #1c1d20; 
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+ }
+ nav a {
+    font-family: 'unifrakturcook', serif;
+    color: #f5f5f5;
+    margin: 0 15px;
+ }
+ 
+ footer {
+    background-color: #141415; 
+    color: #b0b0b0; 
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+ }
+
+ p {
+    font-family: 'unifrakturcook', serif;
+    color: #f5f5f5; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+ }
+
+ div.image::before {
+    content:url(logo.png);
+    width: 60px;
+    height: 60px;
+    background-color: #c4c4c4;
+
+    
+}
+
+img {
+    height: 100px;
+    margin-left: center;
+    width: 100px;
+    height: 100xp;
+    
+
+}
+
+.logo {
+   color: white;
+}
+
+.albumcover {
+   margin-left: center;
+   height: 300px;
+   width: 300px;
+}
